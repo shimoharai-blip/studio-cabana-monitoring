@@ -17,7 +17,9 @@ CSV_PATH = "data/video_daily_stats.csv"
 LOG_PATH = "logs/monitor.log"
 
 JST = timezone(timedelta(hours=9))
-TODAY = datetime.now(JST).strftime("%Y-%m-%d")
+
+NOW = datetime.now(JST)
+TODAY = NOW.strftime("%Y-%m-%d %H:%M")
 
 COLUMNS = [
     "date",
