@@ -1,9 +1,24 @@
 {
   "videos": [
-    "20rm4ZsXev8",
-    "tVqEn_6W0Js",
-    "JLE-ETwK4qg",
-    "Bukj1F9r6MY",
-    "GDqLcEhqncU"
+    {
+      "name": "日下優助歌唱アーティストオーディション企画＜No.3＞",
+      "video_id": "20rm4ZsXev8"
+    },
+    {
+      "name": "日下優助歌唱アーティストオーディション企画＜No.1＞",
+      "video_id": "tVqEn_6W0Js"
+    },
+    {
+      "name": "日下優助歌唱アーティストオーディション企画＜No.2＞",
+      "video_id": "JLE-ETwK4qg"
+    },
+    {
+      "name": "日下優助歌唱アーティストオーディション企画＜No.5＞",
+      "video_id": "Bukj1F9r6MY"
+    },
+    {
+      "name": "日下優助歌唱アーティストオーディション企画＜No.4＞",
+      "video_id": "GDqLcEhqncU"
+    }
   ]
 }
