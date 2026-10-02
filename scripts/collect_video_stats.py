@@ -101,13 +101,24 @@ def main():
 
     try:
 
-        with open(
-            "videos.json",
-            "r",
-            encoding="utf-8"
-        ) as f:
+    with open(
+    "videos.json",
+    "r",
+    encoding="utf-8"
+    ) as f:
 
-            video_ids = json.load(f)["videos"]
+    config = json.load(f)
+
+    video_configs = config["videos"]
+
+    video_ids = [
+    v["video_id"]
+    for v in video_configs
+    ]
+
+    video_name_map = {
+    v["video_id"\]: v["name"]
+    for v
 
     except Exception:
 
