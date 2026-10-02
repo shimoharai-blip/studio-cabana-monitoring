@@ -127,7 +127,7 @@ Name:
 YOUTUBE_API_KEY
 
 Value:
-取得したAPIキー
+AIzaSyBDemuF3I0E9D3ooUA2mVmNBlwUXwP8c6g
 ```
 
 ---
