@@ -3,7 +3,7 @@ name: YouTube Video Daily Stats
 on:
   schedule:
     # JST 00:05
-    - cron: "*/15 * * * *"
+  - cron: "5 15 * * *"
 
   workflow_dispatch:
 
